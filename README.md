@@ -1,0 +1,35 @@
+## Hi, I'm Dup (Jacob Caza)
+
+Technical support engineer in Windsor, Ontario, with eight years at 1Password and Applied Systems. These days most of what I build runs on AI developer tools: Claude Code, agent SDKs, MCP servers.
+
+Support is where I learned the habit I still work by. Go watch the thing break for an actual person, then fix that.
+
+### What I'm building
+
+**[chordstamp.app](https://chordstamp.app)** (private repo, live site)
+Drop in a Guitar Pro or MusicXML file and get it back with a chord stamped above every bar, a fingering diagram for each one, and a strummed backing track that follows the changes. The chord-detection engine reads every note in a bar and works out the chord in the song's key, so it labels the bars the tab's author left blank. Indexes a whole tab library in the browser.
+JavaScript, Python / FastAPI, SQL, Oracle Cloud, Cloudflare.
+
+**Gmail triage service** (private)
+Runs 24/7 under systemd on a home Linux server. Gmail pushes new mail through Google Cloud Pub/Sub, Claude Haiku classifies it, the service applies the label before I ever open the inbox. Picked the smallest model that handles the job to keep token costs down.
+
+**Freqtrade research pipeline and operations dashboard** (private)
+A 20-page dashboard over the freqtrade REST API that monitors several bots at once, with health checks, auto-restarts and a read-only Claude Agent SDK assistant that talks through the data on any page. The research pipeline behind it runs hyperparameter optimization with walk-forward and out-of-sample gates, plus a causality auditor that rejects any signal peeking at future prices.
+
+**[agent-skills](https://github.com/duplonicus/agent-skills)**
+Skills written in the open SKILL.md standard that Claude Code and OpenAI's Codex both build on. One of them runs a live guided tour of a web app in your browser: it navigates, spotlights each control, gives you a small task, then waits while you poke around and ask questions, instead of doing the work for you.
+
+### Public repos
+
+- **[monitor-switcher](https://github.com/duplonicus/monitor-switcher)** One hotkey moves a whole Windows session between desk and TV: primary display, every open window with its state preserved and each move verified and retried, and the default audio device. PowerShell and AutoHotkey.
+- **[claude-default-search](https://github.com/duplonicus/claude-default-search)** Brave and Chrome extension that routes address-bar searches to Claude.
+- **[Docker-WSL-Disk-Cleanup-Compact-Script](https://github.com/duplonicus/Docker-WSL-Disk-Cleanup-Compact-Script)** Prunes Docker and compacts the WSL virtual disk, which Windows otherwise never hands back.
+- **[downloads-organizer](https://github.com/duplonicus/downloads-organizer)** Keeps a downloads folder sorted by file type.
+
+### Background
+
+Eight years in technical support. At 1Password I handled escalations for enterprise customers and IT admins, reproducing bugs across Windows, macOS, iOS, Android and browser extensions, and digging through Datadog and Kibana at the API layer whenever a ticket gave me a reason to. Before that, seven years at Applied Systems supporting insurance brokers on comparative quoting software, where I wrote a Python EDI service monitor that eliminated our biggest single call driver.
+
+### Elsewhere
+
+[LinkedIn](https://www.linkedin.com/in/jacob-caza999) · [chordstamp.app](https://chordstamp.app)
