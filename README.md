@@ -6,21 +6,21 @@ Support is where I learned the habit I still work by. Go watch the thing break f
 
 ### What I'm building
 
-**[chordstamp.app](https://chordstamp.app)** (private repo, live site)
-Drop in a Guitar Pro or MusicXML file and get it back with a chord stamped above every bar, a fingering diagram for each one, and a strummed backing track that follows the changes. The chord-detection engine reads every note in a bar and works out the chord in the song's key, so it labels the bars the tab's author left blank. Indexes a whole tab library in the browser.
+**[chordstamp.app](https://chordstamp.app)** (private repo, live site)\
+Drop in a Guitar Pro or MusicXML file and get it back with a chord stamped above every bar, a fingering diagram for each one, and a strummed backing track that follows the changes. The chord-detection engine reads every note in a bar and works out the chord in the song's key, so it labels the bars the tab's author left blank. Indexes a whole tab library in the browser.\
 JavaScript, Python / FastAPI, SQL, Oracle Cloud, Cloudflare.
 
-**[Gmail triage service](https://github.com/duplonicus/gmail-triage)**
+**[Gmail triage service](https://github.com/duplonicus/gmail-triage)**\
 Runs 24/7 under systemd on a home Linux server. Gmail pushes new mail through Google Cloud Pub/Sub, Claude Haiku classifies it, the service applies the label before I ever open the inbox. Picked the smallest model that handles the job to keep token costs down.
 
-**Freqtrade research pipeline and operations dashboard** (private)
+**Freqtrade research pipeline and operations dashboard** (private)\
 A 20-page dashboard over the freqtrade REST API that monitors several bots at once, with health checks, auto-restarts and a read-only Claude Agent SDK assistant that talks through the data on any page. The research pipeline behind it runs hyperparameter optimization with walk-forward and out-of-sample gates, plus a causality auditor that rejects any signal peeking at future prices.
 
-**[agent-skills](https://github.com/duplonicus/agent-skills)**
+**[agent-skills](https://github.com/duplonicus/agent-skills)**\
 Skills written in the open SKILL.md standard that Claude Code and OpenAI's Codex both build on. One of them runs a live guided tour of a web app in your browser: it navigates, spotlights each control, gives you a small task, then waits while you poke around and ask questions, instead of doing the work for you.
 
-**[claude-messenger](https://github.com/duplonicus/claude-messenger)**
-A local MCP server that lets the Claude app send messages for me: WhatsApp from my own number, Discord DMs from my bot. It asks before every send by default and never guesses between two contacts with the same name. Small on purpose, and instrumented like something bigger: structured logs, OpenTelemetry traces and metrics into Jaeger and Prometheus, and a doctor script that connects the way a client does.
+**[claude-messenger](https://github.com/duplonicus/claude-messenger)**\
+A local MCP server that lets the Claude app send messages for me: WhatsApp from my own number, Discord DMs from my bot. It asks before every send by default and never guesses between two contacts with the same name. Small on purpose, and instrumented like something bigger: structured logs, OpenTelemetry traces and metrics into Jaeger and Prometheus, and a doctor script that connects the way a client does.\
 Python, MCP, OpenTelemetry.
 
 ### Public repos
