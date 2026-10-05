@@ -25,10 +25,12 @@ Python, MCP, OpenTelemetry.
 
 ### Public repos
 
+- **[agent-skills](https://github.com/duplonicus/agent-skills)** Skills in the open SKILL.md format, each tested with and without the skill.
+- **[claude-messenger](https://github.com/duplonicus/claude-messenger)** Local MCP server for WhatsApp and Discord DMs, with logs, traces and metrics.
+- **[gmail-triage](https://github.com/duplonicus/gmail-triage)** Labels new Gmail within seconds of arrival: Pub/Sub push and Claude Haiku.
 - **[monitor-switcher](https://github.com/duplonicus/monitor-switcher)** One hotkey moves a whole Windows session between desk and TV: primary display, every open window with its state preserved and each move verified and retried, and the default audio device. PowerShell and AutoHotkey.
 - **[claude-default-search](https://github.com/duplonicus/claude-default-search)** Brave and Chrome extension that routes address-bar searches to Claude.
 - **[Docker-WSL-Disk-Cleanup-Compact-Script](https://github.com/duplonicus/Docker-WSL-Disk-Cleanup-Compact-Script)** Prunes Docker and compacts the WSL virtual disk, which Windows otherwise never hands back.
-- **[downloads-organizer](https://github.com/duplonicus/downloads-organizer)** Keeps a downloads folder sorted by file type.
 
 ### Background
 
