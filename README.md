@@ -19,6 +19,10 @@ A 20-page dashboard over the freqtrade REST API that monitors several bots at on
 **[agent-skills](https://github.com/duplonicus/agent-skills)**
 Skills written in the open SKILL.md standard that Claude Code and OpenAI's Codex both build on. One of them runs a live guided tour of a web app in your browser: it navigates, spotlights each control, gives you a small task, then waits while you poke around and ask questions, instead of doing the work for you.
 
+**[claude-messenger](https://github.com/duplonicus/claude-messenger)**
+A local MCP server that lets the Claude app send messages for me: WhatsApp from my own number, Discord DMs from my bot. It asks before every send by default and never guesses between two contacts with the same name. Small on purpose, and instrumented like something bigger: structured logs, OpenTelemetry traces and metrics into Jaeger and Prometheus, and a doctor script that connects the way a client does.
+Python, MCP, OpenTelemetry.
+
 ### Public repos
 
 - **[monitor-switcher](https://github.com/duplonicus/monitor-switcher)** One hotkey moves a whole Windows session between desk and TV: primary display, every open window with its state preserved and each move verified and retried, and the default audio device. PowerShell and AutoHotkey.
