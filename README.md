@@ -37,3 +37,5 @@ Eight years in technical support. At 1Password I handled escalations for enterpr
 ### Elsewhere
 
 [LinkedIn](https://www.linkedin.com/in/jacob-caza999) · [chordstamp.app](https://chordstamp.app)
+
+Avatar: generated locally in 2023 with Stable Diffusion (GhostMix, a psychedelic LoRA and a negative embedding).
