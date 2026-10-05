@@ -10,7 +10,7 @@ Support is where I learned the habit I still work by. Go watch the thing break f
 Drop in a Guitar Pro or MusicXML file and get it back with a chord stamped above every bar, a fingering diagram for each one, and a strummed backing track that follows the changes. The chord-detection engine reads every note in a bar and works out the chord in the song's key, so it labels the bars the tab's author left blank. Indexes a whole tab library in the browser.
 JavaScript, Python / FastAPI, SQL, Oracle Cloud, Cloudflare.
 
-**Gmail triage service** (private)
+**[Gmail triage service](https://github.com/duplonicus/gmail-triage)**
 Runs 24/7 under systemd on a home Linux server. Gmail pushes new mail through Google Cloud Pub/Sub, Claude Haiku classifies it, the service applies the label before I ever open the inbox. Picked the smallest model that handles the job to keep token costs down.
 
 **Freqtrade research pipeline and operations dashboard** (private)
