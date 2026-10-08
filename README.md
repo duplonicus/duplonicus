@@ -18,7 +18,7 @@ Our D&D group plays online, and the campaign notes write themselves. A multi-tra
 Python, Whisper, Claude Code, Cloudflare Pages, systemd.
 
 **Trading research pipeline and operations dashboard** (private)\
-A ~20-page dashboard using the freqtrade REST API that monitors several bots at once, with health checks, auto-restarts and a read-only Claude Agent SDK assistant that talks through the data on any page. The research pipeline behind it runs hyperparameter optimization with walk-forward and out-of-sample gates, plus a causality auditor that rejects any signal peeking at future prices.
+A ~20-page Django dashboard using the freqtrade REST API that monitors several bots at once, with health checks, auto-restarts and a read-only Claude Agent SDK assistant that talks through the data on any page. The research pipeline behind it runs hyperparameter optimization with walk-forward and out-of-sample gates, plus a causality auditor that rejects any signal peeking at future prices.
 
 **[agent-skills](https://github.com/duplonicus/agent-skills)**\
 Skills written in the open SKILL.md standard that Claude Code and OpenAI's Codex both build on. One of them gets a person up to speed on a product or console they don't know yet: it drives the real interface in their browser, spotlights each control, sets a small task, then waits while they try it and ask questions. Not a video, not a docs page: the actual product, with someone riding along. It ships with a 19-scenario eval suite graded by code: without the skill, the agent acted for the user or typed a secret in 18 of 57 runs; with it, 0 of 57.
