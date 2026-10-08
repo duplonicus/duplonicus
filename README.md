@@ -7,7 +7,7 @@ Support is where I learned the habit I still work by. Go watch the thing break f
 ### What I'm building
 
 **[chordstamp.app](https://chordstamp.app)** (private repo, live site)\
-Drop in a Guitar Pro or MusicXML file and get it back with a chord stamped above every bar, a fingering diagram for each one, and a strummed backing track that follows the changes. The chord-detection engine reads every note in a bar and works out the chord in the song's key, so it labels the bars the tab's author left blank. Indexes a whole tab library in the browser. A Learn section for new players has interactive widgets (CAGED, Circle of Fifths, ear training) that stay in sync: set the key in one and every widget follows.\
+Drop in a Guitar Pro or MusicXML file and get it back with [a chord stamped above every bar](https://chordstamp.app/app.html), a fingering diagram for each one, and a strummed backing track that follows the changes. The chord-detection engine reads every note in a bar and works out the chord in the song's key, so it labels the bars the tab's author left blank. Indexes [a whole tab library](https://chordstamp.app/library.html) in the browser. A [Learn section](https://chordstamp.app/learn.html?key=C) for new players has [interactive widgets](https://chordstamp.app/learn.html?key=C&view=widgets) (CAGED, Circle of Fifths, ear training) that stay in sync: set the key in one and every widget follows.\
 JavaScript, Python / FastAPI, SQL, Oracle Cloud, Cloudflare.
 
 **[Gmail triage service](https://github.com/duplonicus/gmail-triage)**\
