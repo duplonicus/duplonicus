@@ -2,7 +2,7 @@
 
 Technical support engineer in Windsor, Ontario, with eight years at 1Password and Applied Systems. Building with AI developer tools: Claude Code, agent SDKs, MCP servers.
 
-Support is where I learned the habit I still work by. Go watch the thing break for an actual person, then fix that.
+Support is where I learned the habit I still work by. Watch the tool break for an actual person, then fix that.
 
 ### What I'm building
 
@@ -62,4 +62,4 @@ Eight years in technical support. At 1Password I handled escalations for enterpr
 
 [LinkedIn](https://www.linkedin.com/in/jacob-caza999) · [chordstamp.app](https://chordstamp.app)
 
-Avatar: generated locally in 2023 with Stable Diffusion (GhostMix, a psychedelic LoRA and a negative embedding).
+[Avatar](https://civitai.com/images/731267): generated locally with Stable Diffusion (GhostMix, a psychedelic LoRA, and a negative embedding).
