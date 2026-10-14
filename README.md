@@ -1,6 +1,6 @@
 ## Hi, I'm Dup (Jacob Caza)
 
-Technical support engineer in Windsor, Ontario, with eight years at 1Password and Applied Systems. These days most of what I build runs on AI developer tools: Claude Code, agent SDKs, MCP servers.
+Technical support engineer in Windsor, Ontario, with eight years at 1Password and Applied Systems. Building with AI developer tools: Claude Code, agent SDKs, MCP servers.
 
 Support is where I learned the habit I still work by. Go watch the thing break for an actual person, then fix that.
 
@@ -39,7 +39,7 @@ A ~20-page Django dashboard using the freqtrade REST API that monitors several b
 <details>
 <summary><b><a href="https://github.com/duplonicus/agent-skills">agent-skills</a></b>: skills for AI agents, each tested with and without the skill</summary>
 
-Skills written in the open SKILL.md standard that Claude Code and OpenAI's Codex both build on. One of them gets a person up to speed on a product or console they don't know yet: it drives the real interface in their browser, spotlights each control, sets a small task, then waits while they try it and ask questions. Not a video, not a docs page: the actual product, with someone riding along. It ships with a 19-scenario eval suite graded by code: without the skill, the agent acted for the user or typed a secret in 18 of 57 runs; with it, 0 of 57.
+A set of agent skills in the open SKILL.md format, which both Claude Code and OpenAI's Codex support. Three of them teach by making the person do the work: learn-web walks them through a product or console in their own browser, learn-cli drills command-line tools they type themselves, and learn-repo gets them up to speed on an unfamiliar codebase. Each one sets one small task at a time, gives hints before answers, waits while they try it, and ends with a quiz from memory.
 
 </details>
 
