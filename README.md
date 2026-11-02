@@ -1,5 +1,7 @@
 ## Hi, I'm Dup (Jacob Caza)
 
+Just want the tools? Check out my [Claude Tooling Showcase](https://claude.ai/artifact/4TU8kxNBRT9JqC3FTay9q5).
+
 Technical support engineer in Windsor, Ontario, with eight years at 1Password and Applied Systems. Building with AI developer tools: Claude Code, agent SDKs, MCP servers.
 
 Support is where I learned the habit I still work by. Watch the tool break for an actual person, then fix that.
